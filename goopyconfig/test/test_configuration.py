@@ -4,7 +4,7 @@ from pathlib import Path
 
 from validate import ValidateError
 
-from lib.configuration.configuration import Configuration, ConfigurationError, ConfigurationErrorReason
+from goopyconfig.configuration import Configuration, ConfigurationError, ConfigurationErrorReason
 
 
 class TestConfiguration:
