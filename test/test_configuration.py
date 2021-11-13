@@ -1,10 +1,9 @@
 import pytest
 from unittest.mock import patch
 from pathlib import Path
-
 from validate import ValidateError
 
-from goopyconfig.configuration import Configuration, ConfigurationError, ConfigurationErrorReason
+from goopy_config.configuration import Configuration, ConfigurationError, ConfigurationErrorReason
 
 
 class TestConfiguration:
